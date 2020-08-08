@@ -15,6 +15,6 @@ class Solution:
         return remainders
 
 
-solution = Solution()
-n = input("num: ")
-print(solution.base_seven(int(n)))
+if __name__ == "__main__":
+    n = input("num: ")
+    print(Solution.base_seven(int(n)))
